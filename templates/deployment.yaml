@@ -6,7 +6,7 @@ metadata:
     app: nginx
     demo: helm
 spec:
-  replicas: {{ .Values.deployment.replicas }}
+  replicas: {{ .Values.deployment.replicas }}  ##Passing the values form values.yaml
   selector:
     matchLabels:
       app: nginx

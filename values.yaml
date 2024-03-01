@@ -1,3 +1,6 @@
 deployment:
   replicas: 3
   imageVersion: mainline-alpine3.18-perl
+
+
+## We can pass the values from here isntead of hardcoding the manifest file.
