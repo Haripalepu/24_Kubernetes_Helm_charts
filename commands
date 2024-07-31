@@ -1,4 +1,4 @@
-Install and Uninstall Apps
+Install and Uninstall Apps...
 helm install <name> <chart location>  # Install the chart with a name
 helm install nginx .
  helm uninstall <name>
